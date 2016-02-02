@@ -1,0 +1,53 @@
+* p {
+    margin:auto
+    font-family: Garamond;
+    font-size:20px;
+    text-align:center;
+}
+
+#header {	    
+    height: 50px;
+	background-color:  #69D2E7;
+	margin-bottom: 10px;
+}
+
+.logo img {
+  float: left;
+  width: 200px;
+  height: 200px;
+  background: #555;
+}
+
+.logo h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+}
+
+.slogan p {
+    margin-top:200px;
+    text-align:center;
+}
+
+h1 {
+    font-family: Monospace;
+    font-size:45px;
+    color: #00b8e6;
+}
+
+h3 {
+    font-family: Monospace;
+    font-size: 34px;
+    text-align:center;
+}
+
+ul {
+    font-size:22px;
+    font-family: Garamond;
+}
+
+#footer {
+	height: 50px;
+	background-color: #A7DBD8;
+	clear:both;
+}
