@@ -1,5 +1,4 @@
 body {
-    width: 75%;
     margin: 0 auto;
 }
 
@@ -8,17 +7,79 @@ header, nav, main, section, aside, footer {
     margin-top: 10px;
 }
 
+div {
+    background-color: beige;
+}
+
+header {
+    font-family: "Snell Roundhand";
+    text-align: center;
+    font-size: 25px;
+}
+
+nav {
+    text-align: center;
+    background-color: darkslategrey;
+}
+
+a {
+    text-decoration: none;
+    font-family: "Helvetica";
+    color: azure;
+}
+
 section, aside {
     float: left;
 }
 
 section {
+    width: 70%;
+}
+
+h3 {
+    text-align: center;
+}
+
+article {
+    font-family: "Helvetica";
+    text-align: center;
     width: 70%
 }
+
 aside {
     width: 20%;
 }
 
-footer {
-    clear: both;
+p {
+    text-align: center;
 }
+
+#aspca img {
+    width:300px;
+    height: auto;
+}
+
+#button {
+    border-radius: 35%;
+    width: 65px;
+    height: 45px;
+    background-color: darkgrey;
+}
+
+ div > a {
+    color:whitesmoke;
+    text-align: center;
+    font-size: 10px;
+    text-emphasis: bold;
+}
+
+
+#footer {
+    clear: both;
+    width: auto;
+    background-color: beige;
+    font-family: monospace;
+    text-align: center;
+    color: black;
+}
+
