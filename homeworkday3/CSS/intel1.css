@@ -1,0 +1,29 @@
+header {
+    background-color: #0171c5;
+    color: white;
+    font-family: "Helvetica";
+    font-size: 38px;
+}
+
+nav-link {
+    color: white;
+    font-size: 20px;
+    text-decoration: underline;
+    font-family: "Helvetica";
+}
+
+*h2 {
+    font-size: 28px;
+    font-family: "Helvetica";
+}
+
+*p {
+    font-family: "Helvetica";
+    font-size: 18px;
+}
+
+aside {
+    background-color: darkgray;
+    
+}
+
