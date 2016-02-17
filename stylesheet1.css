@@ -1,10 +1,16 @@
+body {
+    background-color: floralwhite;
+}
+
 h1 {
-    font-family:inherit;
+    font-family: "Arial";
     text-align: center;
 }
 
 nav {
     text-align: center;
+    font-family: monospace;
+    text-decoration: none;
 }
 
 div {
@@ -14,9 +20,10 @@ div {
     background-repeat: no-repeat;
     background-size: contain;
     align-content: center;
+    margin-left: 400px;
     }
 
 p {
-    font-family: inherit;
+    font-family: "Arial";
     text-align: center;
 }
