@@ -1,13 +1,27 @@
-header {
-    background-color: #0171c5;
-    color: white;
-    font-family: "Helvetica";
-    font-size: 38px;
+
+body {
+    font-family: 'Arial', sans-serif;
 }
 
-nav-link {
+header, main, footer {
+    width: 1024px;
+    margin: auto;
+}
+
+header {
+    background-color: #0071c5;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 40px;
     color: white;
-    font-size: 20px;
+    font-family: "Arial";
+}
+
+a:not(.different) {
+    color: white;
+    font-size: 16px;
     text-decoration: underline;
     font-family: "Helvetica";
 }
@@ -19,10 +33,11 @@ nav-link {
 
 *p {
     font-family: "Helvetica";
-    font-size: 18px;
+    font-size: 16px;
 }
 
 aside {
-    background-color: darkgray;
+    background-color: #f3f3f3;
+    width: 1000px;
 }
 
