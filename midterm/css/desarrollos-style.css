@@ -45,7 +45,7 @@ header nav a {
 
 #spacer {
     height: 55px;
-    width:90%;
+    width: 90%;
 }
 
 #intro {
@@ -82,7 +82,6 @@ header nav a {
     transition: all 0.3s ease-in-out;
 }
 
-
 #history {
     display: inline-block;
     width: 90%;
@@ -107,10 +106,10 @@ header nav a {
 }
 
 #projects > div {
-    display:inline-block;
+    display: inline-table;
     width: 22%;
     height: 10em;
-    margin: 12px 13.5px;
+    margin: 12px 15px;
     font-size: 15px;
     text-align: center;
 }
