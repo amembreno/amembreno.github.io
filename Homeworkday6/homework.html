@@ -1,20 +1,85 @@
-<!DOCTYPE html>
-<html>
-<link type="text/css" rel="stylesheet" href="homework-style.css" />
+<DOCTYPE! html>
+    <html>
 
-<head>
-    <title>Recent From Blog</title>
-</head>
+    <head>
+        <title>Recent From Blog</title>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+        <link type="text/css" rel="stylesheet" href="css/hwstyle.css" />
+    </head>
 
-<body>
-    <header>Recent From Blog</header>
-    
-    <p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-    
-    <div id="large"><img src="img/keyboard.JPG"/>Morbi nec metus
-        <p>In hac habitasse platea dictumst. Curabitur at lacus ac velit ornare lobortis. Curabitur a felis in nunc fringilla tristique. Morbi mattis ullamcorper velit. Phasellus gravida semper nisi.</p>
-    </div>
-    
-</body>
+    <body>
+        
+        <!-- HEADER -->
+        <header>
+            <h1>Recent From Blog</h1>
 
-</html>
+            <p id="header">Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+        </header>
+        <!-- END HEADER -->
+        
+        <!-- START MAIN -->
+        
+          <!-- START LEFT IMAGE -->
+        <main class="clear-fix">
+            <div id="left">
+                <div class="box" id="keyboard">
+                    <img width="330" height="165" src="img/keyboard.JPG" />
+                    <h3>Morbi nec metus consequat massa quis</h3>
+                    <p>In hac habitasse platea dictumst. Curabitur at lacus ac velit ornare lobortis. Curabitur a felis in nunc fringilla tristique.</p>
+                    <a class="link" href="#">Read More</a>
+                </div>
+            </div>
+              <!-- END LEFT IMAGE -->
+            
+              <!-- START RIGHT IMAGES -->
+            <div id="right">
+                <div class="box">
+                    <img width="110" height="70" src="img/laptop.jpg" />
+                    <h3>Nam a lorem</h3>
+                    <p>Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+                </div>
+                <div class="box">
+                    <img width="110" height="70" src="img/desk.jpg" />
+                    <h3>Sed nec metus</h3>
+                    <p>Pellentesque habitant morbi tristique senectus et netus.</p>
+                </div>
+                <div class="box">
+                    <img width="110" height="70" src="img/window.jpg" />
+                    <h3>Nam libero tempore</h3>
+                    <p>Itaque earum rerum hic tenetur a sapiente delectus.</p>
+                </div>
+            </div>
+              <!-- END RIGHT IMAGES -->
+        </main>
+          <!-- END MAIN -->
+        
+                    
+            <!-- START BOTTOM COLUMNS -->
+        <div id="row" class="clear-fix">
+            <div id="bottom-left" class="column">
+                <h3>Why Profression?</h3>
+                <ul>
+                    <li>Clean & corporate webdesgin</li>
+                    <li>Well coded HTML template</li>
+                    <li>Multiple layout options</li>
+                </ul>
+            </div>
+            <div id="bottom-middle" class="column">
+                 <h3>Main Features</h3>
+                <ul>
+                    <li>Bootstrap 3x & SASS </li>
+                    <li>Super lightning page speed</li>
+                    <li>Well documented code</li>
+                </ul>
+            </div>
+            <div id="bottom-right" class="column">
+                 <h3>Transparent Pricing</h3>
+                <p>Are you interested in our services? Don't hesitate in contacting us.</p>
+                <a class="link" href="#">Check Pricing</a>
+            </div>
+        </div>
+             <!-- END BOTTOM COLUMNS -->
+        
+    </body>
+
+    </html>

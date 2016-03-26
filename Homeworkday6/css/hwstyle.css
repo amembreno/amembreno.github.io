@@ -1,0 +1,120 @@
+
+html {
+    background-color: #e8e8e8;
+    font-family: 'Open Sans', sans-serif;
+    color: dimgray;
+    font-size: 0.75em;
+    text-align: left;
+    padding-top: 0px;
+    margin: 0;
+    color:dimgray;
+}
+
+body {
+    width: 690px;
+    margin: auto;
+    padding: 30px 30px;
+    background-color: white;
+}
+
+/* HEADER */
+/*-----------------------------------*/
+h1 {
+    font-size: 2em;
+    text-align: center;
+}
+
+#header {
+    text-align: center;
+}
+
+/* BODY */
+/*-----------------------------------*/
+
+/* IMAGES */
+/*-----------------------------------*/
+
+#left {
+    width: 350px;
+    margin-right:20px;
+    float:left;
+}
+
+#right {
+    width: 320px;
+    float:right;
+}
+
+/* CLEARFIX */
+/*-----------------------------------*/
+
+.clear-fix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* BOX STYLES */
+/*-----------------------------------*/
+
+.box {
+    background-color: #f8f8f8;
+    padding:10px; 
+}
+
+#keyboard {
+    height: 280px;
+}
+
+#keyboard img {
+    width: 100%;
+}
+
+.link {
+    text-decoration: underline;
+    color: darkgreen;
+    float: right;
+}
+
+#right .box {
+    height:70px;
+    margin-bottom: 15px;
+}
+
+#right .box img {
+    float:left;
+    margin-right: 10px;
+}
+
+
+#right .box h3 {
+    color: dimgray;
+    margin: 0px;
+}
+
+#right .box:last-child {
+    margin-bottom: 0px;
+}
+
+#row {
+    border-bottom: 1px solid #e8e8e8;
+    border-top: 1px solid #e8e8e8;
+    margin-top: 50px;
+}
+
+.column {
+    padding:0px 30px;
+    margin: 30px 0px;
+    border-right: 1px solid #e8e8e8;
+    height: 130px;
+    width: 169px;
+    float: left;
+}
+
+.column:last-child {
+    border:none;
+}
+
+.column ul {
+    list-style-image: url("../img/bullet.png");
+}
