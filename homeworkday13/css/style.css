@@ -1,0 +1,20 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#banner {
+    background: url("../img/sub_header_home.jpg") top center no-repeat;
+    color: white;
+    padding: 180px 40px;
+    text-align: center;
+}
+
+#banner h1 {
+    font-family: serif;
+}
+
+.widget {
+    text-align: center;
+    padding: 20px;
+}
