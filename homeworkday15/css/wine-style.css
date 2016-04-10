@@ -1,0 +1,47 @@
+q {
+    font-style:italic;
+    font-size: 1.5em;
+    font-family: "Gabriela", serif;
+}
+
+body {
+    padding-top:50px;
+    text-align:center;
+}
+
+.jumbotron {
+    background:none;
+}
+
+.jumbotron h2 {
+    margin-top: 50px;
+}
+
+.jumbotron p {
+    font-size: medium;
+}
+
+#home {
+    background: linear-gradient(to bottom, rgba(20, 20, 20, 0.9) 0%, rgba(0, 0, 0, 0.8) 100%), url('../img/wine-bg.jpg') no-repeat center;
+    background-attachment: fixed;
+    color: white;
+}
+
+#about .col-xs-12:last-child {
+    padding: 100px 0px;
+}
+
+#third {
+    background: linear-gradient( rgba(20, 20, 20, 0.9), rgba(0, 0, 0, 0.8)), url('../img/wine13.jpg') no-repeat top;
+    color: white;
+}
+
+#selection a {
+    background-color: darkolivegreen;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin-top: 15px;
+    font-size:.8em;
+    transition: all .5s ease-in;
+}
