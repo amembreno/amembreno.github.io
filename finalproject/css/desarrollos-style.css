@@ -1,0 +1,66 @@
+body {
+    padding: 80px 50px 50px 50;
+}
+
+.row {
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+
+.btn-primary {
+    background: transparent !important;
+    border: 1px solid white !important;
+    color: white;
+    align-items: center;
+}
+
+#intro {
+    text-align:center;
+    padding-top:100px;
+    background: linear-gradient(to bottom, rgba(10, 10, 10, 0.4) 0%, rgba(0, 0, 0, 0.5) 80%), url('../img/parque.jpg') no-repeat center;
+    color: white;
+    font-family: sans-serif;
+}
+
+.jumbotron {
+    background: none;
+}
+
+#history div:first-child {
+    text-align: center;
+}
+
+#history div img {
+    height: 200px;
+    width: 350px;
+}
+
+#projects {
+    text-align: left;
+}
+
+#projects p:nth-child(3) {
+    text-align: center;
+}
+
+#promos {
+    text-align: center;
+}
+
+#promos img {
+    padding: 10px;
+    width: 100%;
+}
+
+#social {
+    text-align: center;
+    font-size: 1.5em;
+    background: #d8d8d8;
+    border: 1px solid black;
+    padding: 0px 0px 0px 300px;
+    background: url('../img/grass.jpeg') no-repeat bottom;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    margin:auto;
+}
