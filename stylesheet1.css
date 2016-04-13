@@ -27,3 +27,7 @@ p {
     font-family: "Arial";
     text-align: center;
 }
+
+div p {
+    font-size: 10px;
+}
