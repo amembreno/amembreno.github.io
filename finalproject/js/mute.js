@@ -15,7 +15,7 @@ function onYouTubeIframeAPIReady() {
     player = new YT.Player('ytplayer', {
         height:'172',
         width: '260',
-        videoID: 'BkoWTNb0Ll8',
+        videoId: 'BkoWTNb0Ll8',
         events: {
             'onReady': onPlayerReady
         }
@@ -24,7 +24,7 @@ function onYouTubeIframeAPIReady() {
     player2 = new YT.Player('ytplayer2', {
          height:'172',
         width: '260',
-        videoID: 'kaAQvnkmd7Y',
+        videoId: 'kaAQvnkmd7Y',
         events: {
             'onReady': onPlayerReady
         }
@@ -33,7 +33,7 @@ function onYouTubeIframeAPIReady() {
      player3 = new YT.Player('ytplayer3', {
           height:'172',
         width: '260',
-         videoID: 'kaAQvnkmd7Y',
+         videoId: 'kaAQvnkmd7Y',
         events: {
             'onReady': onPlayerReady
         }
@@ -42,14 +42,14 @@ function onYouTubeIframeAPIReady() {
       player4 = new YT.Player('ytplayer4', {
            height:'172',
         width: '260',
-        videoID: '4qzYJeVldS4',
+        videoId: '4qzYJeVldS4',
         events: {
             'onReady': onPlayerReady
         }
     });
 }
 
-function onPlayerReady() {
+function onPlayerReady(event) {
     // Mute!
     player.muted();
     player2.muted();

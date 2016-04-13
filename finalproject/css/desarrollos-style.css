@@ -35,7 +35,6 @@ body {
 
 #projects {
     text-align: left;
-    box-sizing: border-box;
 }
 
 #projects p:nth-child(3) {
