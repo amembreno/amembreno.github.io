@@ -64,3 +64,9 @@ body {
 #social .jumbotron {
         background: url('../img/grass.jpg') no-repeat bottom;
 }
+
+#footer {
+    text-align: center;
+    font-size: 8px;
+    padding-bottom: 10px;
+}
