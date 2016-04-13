@@ -51,8 +51,8 @@ function onYouTubeIframeAPIReady() {
 
 function onPlayerReady(event) {
     // Mute!
-    player.muted();
-    player2.muted();
-    player3.muted();
-    player4.muted();
+    player.mute();
+    player2.mute();
+    player3.mute();
+    player4.mute();
 }
