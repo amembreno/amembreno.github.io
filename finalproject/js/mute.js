@@ -1,9 +1,7 @@
 var tag = document.createElement('script');
 
 tag.src = "http://www.youtube.com/iframe_api";
-var firstScriptTag = 
-document.getElementsByTagName('script')[0];
-firstScriptTag.parentNode.insertBefore(tag, 
+var firstScriptTag = document.getElementsByTagName('script')[0]; firstScriptTag.parentNode.insertBefore(tag, 
 firstScriptTag);
 
 var player;
@@ -13,7 +11,7 @@ var player4;
 
 function onYouTubeIframeAPIReady() {
     player = new YT.Player('ytplayer', {
-        height:'172',
+        height: '172',
         width: '260',
         videoId: 'BkoWTNb0Ll8',
         events: {
@@ -22,7 +20,7 @@ function onYouTubeIframeAPIReady() {
     });
     
     player2 = new YT.Player('ytplayer2', {
-         height:'172',
+         height: '172',
         width: '260',
         videoId: 'kaAQvnkmd7Y',
         events: {
@@ -31,7 +29,7 @@ function onYouTubeIframeAPIReady() {
     });
     
      player3 = new YT.Player('ytplayer3', {
-          height:'172',
+          height: '172',
         width: '260',
          videoId: 'kaAQvnkmd7Y',
         events: {
@@ -40,7 +38,7 @@ function onYouTubeIframeAPIReady() {
     });
     
       player4 = new YT.Player('ytplayer4', {
-           height:'172',
+           height: '172',
         width: '260',
         videoId: '4qzYJeVldS4',
         events: {
